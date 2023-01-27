@@ -1,0 +1,58 @@
+body{
+  background-color: #ADB5BD;
+}
+
+.header{
+  background-color: #343A40;
+  display: flex;
+  margin-bottom: 30px;
+  padding: 20px;
+  color: white;
+  align-items: center;
+}
+
+.title{
+  margin-right: auto;
+}
+
+.options{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.filter-select{
+  background-color: #62113089;
+  color: white;
+  margin-right: auto;
+  border-radius: 5px;
+  border:1px solid rgb(53, 53, 53);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.sort-button{
+  background-color: #62113089;
+  color: white;
+  margin: 1px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border:1px solid rgb(53, 53, 53);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.sort-button:active{
+  background-color: #480d2496;
+  color: rgb(194, 188, 188);
+  box-shadow: rgba(9, 9, 16, 0.609) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.card{
+  background-color: #621130;
+  color: white;
+  padding: 10px 50px;
+  margin-bottom: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.pagination-elements{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
